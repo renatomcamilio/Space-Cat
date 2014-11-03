@@ -16,6 +16,14 @@
 		AFECE2E51A07142000708CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2E41A07142000708CEF /* Images.xcassets */; };
 		AFECE2E81A07142000708CEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2E61A07142000708CEF /* LaunchScreen.xib */; };
 		AFECE2F41A07142000708CEF /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2F31A07142000708CEF /* Space_CatTests.m */; };
+		AFECE3061A07143100708CEF /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2FE1A07143100708CEF /* Damage.caf */; };
+		AFECE3071A07143100708CEF /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2FF1A07143100708CEF /* Explode.caf */; };
+		AFECE3081A07143100708CEF /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3001A07143100708CEF /* GameOver.mp3 */; };
+		AFECE3091A07143100708CEF /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3011A07143100708CEF /* Gameplay.mp3 */; };
+		AFECE30A1A07143100708CEF /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3021A07143100708CEF /* Laser.caf */; };
+		AFECE30B1A07143100708CEF /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3031A07143100708CEF /* PressStart.caf */; };
+		AFECE30C1A07143100708CEF /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3041A07143100708CEF /* StartScreen.mp3 */; };
+		AFECE30D1A07143100708CEF /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3051A07143100708CEF /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		AFECE2ED1A07142000708CEF /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFECE2F21A07142000708CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFECE2F31A07142000708CEF /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
+		AFECE2FE1A07143100708CEF /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		AFECE2FF1A07143100708CEF /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		AFECE3001A07143100708CEF /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		AFECE3011A07143100708CEF /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		AFECE3021A07143100708CEF /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		AFECE3031A07143100708CEF /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		AFECE3041A07143100708CEF /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
+		AFECE3051A07143100708CEF /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,8 @@
 		AFECE2D11A07142000708CEF /* Space Cat */ = {
 			isa = PBXGroup;
 			children = (
+				AFECE2FD1A07143100708CEF /* Music */,
+				AFECE3051A07143100708CEF /* Sprites.atlas */,
 				AFECE2D61A07142000708CEF /* AppDelegate.h */,
 				AFECE2D71A07142000708CEF /* AppDelegate.m */,
 				AFECE2D91A07142000708CEF /* GameScene.h */,
@@ -125,6 +143,20 @@
 				AFECE2F21A07142000708CEF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFECE2FD1A07143100708CEF /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				AFECE2FE1A07143100708CEF /* Damage.caf */,
+				AFECE2FF1A07143100708CEF /* Explode.caf */,
+				AFECE3001A07143100708CEF /* GameOver.mp3 */,
+				AFECE3011A07143100708CEF /* Gameplay.mp3 */,
+				AFECE3021A07143100708CEF /* Laser.caf */,
+				AFECE3031A07143100708CEF /* PressStart.caf */,
+				AFECE3041A07143100708CEF /* StartScreen.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +239,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFECE30A1A07143100708CEF /* Laser.caf in Resources */,
 				AFECE2E81A07142000708CEF /* LaunchScreen.xib in Resources */,
+				AFECE3081A07143100708CEF /* GameOver.mp3 in Resources */,
+				AFECE30B1A07143100708CEF /* PressStart.caf in Resources */,
+				AFECE3091A07143100708CEF /* Gameplay.mp3 in Resources */,
 				AFECE2E51A07142000708CEF /* Images.xcassets in Resources */,
+				AFECE30D1A07143100708CEF /* Sprites.atlas in Resources */,
+				AFECE3061A07143100708CEF /* Damage.caf in Resources */,
 				AFECE2DD1A07142000708CEF /* GameScene.sks in Resources */,
+				AFECE3071A07143100708CEF /* Explode.caf in Resources */,
+				AFECE30C1A07143100708CEF /* StartScreen.mp3 in Resources */,
 				AFECE2E31A07142000708CEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
