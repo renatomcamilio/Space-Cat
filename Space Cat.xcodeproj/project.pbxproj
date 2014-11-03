@@ -462,6 +462,7 @@
 				AFECE2F91A07142000708CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFECE2FA1A07142000708CEF /* Build configuration list for PBXNativeTarget "Space CatTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				AFECE2FC1A07142000708CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
