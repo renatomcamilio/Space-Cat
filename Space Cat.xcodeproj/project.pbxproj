@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88F9809D1A91C9780026FFAE /* SKScene+Unarchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9809C1A91C9780026FFAE /* SKScene+Unarchive.m */; };
+		88F980A01A91C9C80026FFAE /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9809F1A91C9C80026FFAE /* TitleScene.m */; };
 		AFECE2D51A07142000708CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2D41A07142000708CEF /* main.m */; };
 		AFECE2D81A07142000708CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2D71A07142000708CEF /* AppDelegate.m */; };
-		AFECE2DB1A07142000708CEF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2DA1A07142000708CEF /* GameScene.m */; };
-		AFECE2DD1A07142000708CEF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2DC1A07142000708CEF /* GameScene.sks */; };
 		AFECE2E01A07142000708CEF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2DF1A07142000708CEF /* GameViewController.m */; };
 		AFECE2E31A07142000708CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2E11A07142000708CEF /* Main.storyboard */; };
 		AFECE2E51A07142000708CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2E41A07142000708CEF /* Images.xcassets */; };
@@ -37,14 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88F9809B1A91C9780026FFAE /* SKScene+Unarchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+Unarchive.h"; sourceTree = "<group>"; };
+		88F9809C1A91C9780026FFAE /* SKScene+Unarchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+Unarchive.m"; sourceTree = "<group>"; };
+		88F9809E1A91C9C80026FFAE /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		88F9809F1A91C9C80026FFAE /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
 		AFECE2CF1A07142000708CEF /* Space Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFECE2D31A07142000708CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFECE2D41A07142000708CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFECE2D61A07142000708CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFECE2D71A07142000708CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AFECE2D91A07142000708CEF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		AFECE2DA1A07142000708CEF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		AFECE2DC1A07142000708CEF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		AFECE2DE1A07142000708CEF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		AFECE2DF1A07142000708CEF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		AFECE2E21A07142000708CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +85,8 @@
 		AFECE2C61A07142000708CEF = {
 			isa = PBXGroup;
 			children = (
+				88F9809B1A91C9780026FFAE /* SKScene+Unarchive.h */,
+				88F9809C1A91C9780026FFAE /* SKScene+Unarchive.m */,
 				AFECE2D11A07142000708CEF /* Space Cat */,
 				AFECE2F01A07142000708CEF /* Space CatTests */,
 				AFECE2D01A07142000708CEF /* Products */,
@@ -106,11 +109,10 @@
 				AFECE3051A07143100708CEF /* Sprites.atlas */,
 				AFECE2D61A07142000708CEF /* AppDelegate.h */,
 				AFECE2D71A07142000708CEF /* AppDelegate.m */,
-				AFECE2D91A07142000708CEF /* GameScene.h */,
-				AFECE2DA1A07142000708CEF /* GameScene.m */,
-				AFECE2DC1A07142000708CEF /* GameScene.sks */,
 				AFECE2DE1A07142000708CEF /* GameViewController.h */,
 				AFECE2DF1A07142000708CEF /* GameViewController.m */,
+				88F9809E1A91C9C80026FFAE /* TitleScene.h */,
+				88F9809F1A91C9C80026FFAE /* TitleScene.m */,
 				AFECE2E11A07142000708CEF /* Main.storyboard */,
 				AFECE2E41A07142000708CEF /* Images.xcassets */,
 				AFECE2E61A07142000708CEF /* LaunchScreen.xib */,
@@ -247,7 +249,6 @@
 				AFECE2E51A07142000708CEF /* Images.xcassets in Resources */,
 				AFECE30D1A07143100708CEF /* Sprites.atlas in Resources */,
 				AFECE3061A07143100708CEF /* Damage.caf in Resources */,
-				AFECE2DD1A07142000708CEF /* GameScene.sks in Resources */,
 				AFECE3071A07143100708CEF /* Explode.caf in Resources */,
 				AFECE30C1A07143100708CEF /* StartScreen.mp3 in Resources */,
 				AFECE2E31A07142000708CEF /* Main.storyboard in Resources */,
@@ -268,9 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F980A01A91C9C80026FFAE /* TitleScene.m in Sources */,
 				AFECE2E01A07142000708CEF /* GameViewController.m in Sources */,
 				AFECE2D81A07142000708CEF /* AppDelegate.m in Sources */,
-				AFECE2DB1A07142000708CEF /* GameScene.m in Sources */,
+				88F9809D1A91C9780026FFAE /* SKScene+Unarchive.m in Sources */,
 				AFECE2D51A07142000708CEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
