@@ -12,14 +12,15 @@
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
-    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
-    myLabel.text = @"Hello, World!";
-    myLabel.fontSize = 65;
-    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                   CGRectGetMidY(self.frame));
+    // Setup my redSquare
+    SKSpriteNode *redSquare = [SKSpriteNode spriteNodeWithColor:[UIColor redColor] size:CGSizeMake(50, 50)];
+    // position it at center of the container
+    redSquare.position = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
+    // define anchor point
+    redSquare.anchorPoint = CGPointMake(0, 0);
     
-    [self addChild:myLabel];
+    [self addChild:redSquare];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
