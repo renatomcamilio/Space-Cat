@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		88F9809D1A91C9780026FFAE /* SKScene+Unarchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9809C1A91C9780026FFAE /* SKScene+Unarchive.m */; };
 		88F980A01A91C9C80026FFAE /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9809F1A91C9C80026FFAE /* TitleScene.m */; };
+		88F980A31A91CE380026FFAE /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F980A21A91CE380026FFAE /* GamePlayScene.m */; };
+		88F980AD1A91D46B0026FFAE /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88F980A51A91D46B0026FFAE /* Damage.caf */; };
+		88F980AF1A91D46B0026FFAE /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88F980A71A91D46B0026FFAE /* Explode.caf */; };
+		88F980B11A91D46B0026FFAE /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88F980A91A91D46B0026FFAE /* Laser.caf */; };
+		88F980B31A91D46B0026FFAE /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88F980AB1A91D46B0026FFAE /* PressStart.caf */; };
+		88F980B71A91D9FB0026FFAE /* MachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F980B61A91D9FB0026FFAE /* MachineNode.m */; };
+		88F980BA1A91DD9E0026FFAE /* SpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F980B91A91DD9E0026FFAE /* SpaceCatNode.m */; };
 		AFECE2D51A07142000708CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2D41A07142000708CEF /* main.m */; };
 		AFECE2D81A07142000708CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2D71A07142000708CEF /* AppDelegate.m */; };
 		AFECE2E01A07142000708CEF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2DF1A07142000708CEF /* GameViewController.m */; };
@@ -16,12 +23,8 @@
 		AFECE2E51A07142000708CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2E41A07142000708CEF /* Images.xcassets */; };
 		AFECE2E81A07142000708CEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2E61A07142000708CEF /* LaunchScreen.xib */; };
 		AFECE2F41A07142000708CEF /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFECE2F31A07142000708CEF /* Space_CatTests.m */; };
-		AFECE3061A07143100708CEF /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2FE1A07143100708CEF /* Damage.caf */; };
-		AFECE3071A07143100708CEF /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE2FF1A07143100708CEF /* Explode.caf */; };
 		AFECE3081A07143100708CEF /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3001A07143100708CEF /* GameOver.mp3 */; };
 		AFECE3091A07143100708CEF /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3011A07143100708CEF /* Gameplay.mp3 */; };
-		AFECE30A1A07143100708CEF /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3021A07143100708CEF /* Laser.caf */; };
-		AFECE30B1A07143100708CEF /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3031A07143100708CEF /* PressStart.caf */; };
 		AFECE30C1A07143100708CEF /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3041A07143100708CEF /* StartScreen.mp3 */; };
 		AFECE30D1A07143100708CEF /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AFECE3051A07143100708CEF /* Sprites.atlas */; };
 /* End PBXBuildFile section */
@@ -41,6 +44,16 @@
 		88F9809C1A91C9780026FFAE /* SKScene+Unarchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+Unarchive.m"; sourceTree = "<group>"; };
 		88F9809E1A91C9C80026FFAE /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
 		88F9809F1A91C9C80026FFAE /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		88F980A11A91CE380026FFAE /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
+		88F980A21A91CE380026FFAE /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		88F980A51A91D46B0026FFAE /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		88F980A71A91D46B0026FFAE /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		88F980A91A91D46B0026FFAE /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		88F980AB1A91D46B0026FFAE /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		88F980B51A91D9FB0026FFAE /* MachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineNode.h; sourceTree = "<group>"; };
+		88F980B61A91D9FB0026FFAE /* MachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineNode.m; sourceTree = "<group>"; };
+		88F980B81A91DD9E0026FFAE /* SpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceCatNode.h; sourceTree = "<group>"; };
+		88F980B91A91DD9E0026FFAE /* SpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceCatNode.m; sourceTree = "<group>"; };
 		AFECE2CF1A07142000708CEF /* Space Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFECE2D31A07142000708CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFECE2D41A07142000708CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,12 +67,8 @@
 		AFECE2ED1A07142000708CEF /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFECE2F21A07142000708CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFECE2F31A07142000708CEF /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
-		AFECE2FE1A07143100708CEF /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
-		AFECE2FF1A07143100708CEF /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
 		AFECE3001A07143100708CEF /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
 		AFECE3011A07143100708CEF /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
-		AFECE3021A07143100708CEF /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
-		AFECE3031A07143100708CEF /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
 		AFECE3041A07143100708CEF /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
 		AFECE3051A07143100708CEF /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88F980A41A91D46B0026FFAE /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				88F980A51A91D46B0026FFAE /* Damage.caf */,
+				88F980A71A91D46B0026FFAE /* Explode.caf */,
+				88F980A91A91D46B0026FFAE /* Laser.caf */,
+				88F980AB1A91D46B0026FFAE /* PressStart.caf */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
 		AFECE2C61A07142000708CEF = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +125,15 @@
 		AFECE2D11A07142000708CEF /* Space Cat */ = {
 			isa = PBXGroup;
 			children = (
+				88F980A41A91D46B0026FFAE /* SFX */,
 				AFECE2FD1A07143100708CEF /* Music */,
 				AFECE3051A07143100708CEF /* Sprites.atlas */,
-				AFECE2D61A07142000708CEF /* AppDelegate.h */,
-				AFECE2D71A07142000708CEF /* AppDelegate.m */,
-				AFECE2DE1A07142000708CEF /* GameViewController.h */,
-				AFECE2DF1A07142000708CEF /* GameViewController.m */,
+				88F980A11A91CE380026FFAE /* GamePlayScene.h */,
+				88F980A21A91CE380026FFAE /* GamePlayScene.m */,
+				88F980B51A91D9FB0026FFAE /* MachineNode.h */,
+				88F980B61A91D9FB0026FFAE /* MachineNode.m */,
+				88F980B81A91DD9E0026FFAE /* SpaceCatNode.h */,
+				88F980B91A91DD9E0026FFAE /* SpaceCatNode.m */,
 				88F9809E1A91C9C80026FFAE /* TitleScene.h */,
 				88F9809F1A91C9C80026FFAE /* TitleScene.m */,
 				AFECE2E11A07142000708CEF /* Main.storyboard */,
@@ -124,6 +147,10 @@
 		AFECE2D21A07142000708CEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFECE2D61A07142000708CEF /* AppDelegate.h */,
+				AFECE2D71A07142000708CEF /* AppDelegate.m */,
+				AFECE2DE1A07142000708CEF /* GameViewController.h */,
+				AFECE2DF1A07142000708CEF /* GameViewController.m */,
 				AFECE2D31A07142000708CEF /* Info.plist */,
 				AFECE2D41A07142000708CEF /* main.m */,
 			);
@@ -150,12 +177,8 @@
 		AFECE2FD1A07143100708CEF /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				AFECE2FE1A07143100708CEF /* Damage.caf */,
-				AFECE2FF1A07143100708CEF /* Explode.caf */,
 				AFECE3001A07143100708CEF /* GameOver.mp3 */,
 				AFECE3011A07143100708CEF /* Gameplay.mp3 */,
-				AFECE3021A07143100708CEF /* Laser.caf */,
-				AFECE3031A07143100708CEF /* PressStart.caf */,
 				AFECE3041A07143100708CEF /* StartScreen.mp3 */,
 			);
 			path = Music;
@@ -241,15 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFECE30A1A07143100708CEF /* Laser.caf in Resources */,
+				88F980B11A91D46B0026FFAE /* Laser.caf in Resources */,
+				88F980B31A91D46B0026FFAE /* PressStart.caf in Resources */,
+				88F980AF1A91D46B0026FFAE /* Explode.caf in Resources */,
 				AFECE2E81A07142000708CEF /* LaunchScreen.xib in Resources */,
+				88F980AD1A91D46B0026FFAE /* Damage.caf in Resources */,
 				AFECE3081A07143100708CEF /* GameOver.mp3 in Resources */,
-				AFECE30B1A07143100708CEF /* PressStart.caf in Resources */,
 				AFECE3091A07143100708CEF /* Gameplay.mp3 in Resources */,
 				AFECE2E51A07142000708CEF /* Images.xcassets in Resources */,
 				AFECE30D1A07143100708CEF /* Sprites.atlas in Resources */,
-				AFECE3061A07143100708CEF /* Damage.caf in Resources */,
-				AFECE3071A07143100708CEF /* Explode.caf in Resources */,
 				AFECE30C1A07143100708CEF /* StartScreen.mp3 in Resources */,
 				AFECE2E31A07142000708CEF /* Main.storyboard in Resources */,
 			);
@@ -272,7 +295,10 @@
 				88F980A01A91C9C80026FFAE /* TitleScene.m in Sources */,
 				AFECE2E01A07142000708CEF /* GameViewController.m in Sources */,
 				AFECE2D81A07142000708CEF /* AppDelegate.m in Sources */,
+				88F980BA1A91DD9E0026FFAE /* SpaceCatNode.m in Sources */,
 				88F9809D1A91C9780026FFAE /* SKScene+Unarchive.m in Sources */,
+				88F980A31A91CE380026FFAE /* GamePlayScene.m in Sources */,
+				88F980B71A91D9FB0026FFAE /* MachineNode.m in Sources */,
 				AFECE2D51A07142000708CEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
